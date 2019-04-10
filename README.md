@@ -1,7 +1,7 @@
 # Location Updater
 
 ## Description
-CLI tool that updates the location of Illumio workloads based off its IP address. The tool uses an IP List with comments as the input for labeling. An example IP list is below:
+CLI tool that updates the locations of Illumio workloads based off their IP addresses. The tool uses an IP List with comments as the input for labeling. An example IP list is below:
 
 ![Example IP List](img/iplist-example.png)
 
