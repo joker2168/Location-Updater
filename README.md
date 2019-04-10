@@ -5,7 +5,7 @@ CLI tool that updates the locations of Illumio workloads based off their IP addr
 
 ![Example IP List](img/iplist-example.png)
 
-In this example, any IP address in the 192.168.0.0/24 network would have a location label of NYC and any IP Address in the 10.0.0.0/8 network would have a location label of BOS. The tool assumes the workloads have 1 NIC and only looks at the first IP address. IP Lists must be in CIDR notation, not ranges.
+In this example, any IP address in the 192.168.0.0/16 network would have a location label of NYC and any IP Address in the 10.0.0.0/8 network would have a location label of BOS. The tool assumes the workloads have 1 NIC and only looks at the first IP address. IP Lists must be in CIDR notation, not ranges.
 
 The tool is designed to be run on a cron job to keep location labels up-to-date.
 
